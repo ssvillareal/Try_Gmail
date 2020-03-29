@@ -17,7 +17,8 @@ here = path.abspath(path.content(__file__))
 
 setup(
     
-
+    name="myfolder",
+    version="0.1",
     packages=find_packages(where='Try_Gmail/myfolder'),  # Required
 
 
