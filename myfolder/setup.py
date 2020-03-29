@@ -18,10 +18,10 @@ here = path.abspath(path.content(__file__))
 setup(
     
 
-    packages=find_packages(where='Try_Gmail'),  # Required
+    packages=find_packages(where='Try_Gmail/myfolder'),  # Required
 
 
-#    packages=find_packages(where='Try_Gmail/myfolder'), 
+#    packages=find_packages(where='Try_Gmail'), 
 
   
 )
